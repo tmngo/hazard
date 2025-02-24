@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgis/postgis:17-3.5-alpine
+    environment:
+      POSTGRES_PASSWORD: secret7
+    ports:
+      - '5432:5432'
+      # Uncomment the below 2 lines to see every query logged to the console
+      # - "-c"
+      # - "log_statement=all"
+    volumes:
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
