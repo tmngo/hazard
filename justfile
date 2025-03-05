@@ -7,4 +7,4 @@ db-down:
   docker compose down
 
 psql:
-  psql -h localhost -d postgres -U postgres
+  docker exec -it hazard-db-1 psql -U postgres -d postgres
