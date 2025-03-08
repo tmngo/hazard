@@ -1,3 +1,4 @@
+import { TestMap } from 'components/TestMap'
 import { TestPanel } from 'components/TestPanel'
 
 export function App() {
@@ -5,6 +6,7 @@ export function App() {
     <>
       <h1>Hello World</h1>
       <div>
+        <TestMap />
         <TestPanel />
       </div>
     </>

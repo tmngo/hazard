@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      gleo:
+        specifier: ^1.0.0
+        version: 1.0.0
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -774,6 +777,9 @@ packages:
   gensync@1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
     engines: {node: '>=6.9.0'}
+
+  gleo@1.0.0:
+    resolution: {integrity: sha512-2LRGTTxEsy+Me5p/lgGq1weCDpSXshg+cl7ZvbzUvU9LT0hd3nJGJ5xea40T4F2Yzx9BsgCpgWeJjbwu4tzQ8A==}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -1831,6 +1837,8 @@ snapshots:
     optional: true
 
   gensync@1.0.0-beta.2: {}
+
+  gleo@1.0.0: {}
 
   glob-parent@5.1.2:
     dependencies:
