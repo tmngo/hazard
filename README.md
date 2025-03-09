@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-- [Go](https://go.dev/)
+- [Go](https://go.dev/) & [Air](https://github.com/air-verse/air)
 - [Docker](https://www.docker.com/)
 - [just](https://github.com/casey/just)
 - [pnpm](https://pnpm.io/)
