@@ -1,12 +1,13 @@
 import { TestMap } from 'components/TestMap'
 import { TestPanel } from 'components/TestPanel'
+import { TestDial } from 'components/TestDial'
 
 export function App() {
   return (
     <>
-      <h1>Hello World</h1>
       <div>
         <TestMap />
+        <TestDial value={7} />
         <TestPanel />
       </div>
     </>
